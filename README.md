@@ -86,13 +86,13 @@ dedstroys the gate
 
 ## Defines
 
-#define MAX_GATES 100
-#define GATE_STATUS_CLOSED 0
-#define GATE_STATUS_OPEN 1
-#define GATE_STATUS_OPENING 2
-#define GATE_STATUS_CLOSING 4
-#define GATE_STATUS_DEV -1
-#define GATE_STATUS_NOTCREATED -2
+- #define MAX_GATES 100
+- #define GATE_STATUS_CLOSED 0
+- #define GATE_STATUS_OPEN 1
+- #define GATE_STATUS_OPENING 2
+- #define GATE_STATUS_CLOSING 4
+- #define GATE_STATUS_DEV -1
+- #define GATE_STATUS_NOTCREATED -2
 
 ## Callbacks
 
