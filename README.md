@@ -13,7 +13,5 @@ Automatic Gates for SAMP/open.mp , more efficeint than anyother automatic gates.
 -  ***Open Source***
 - Advanced functions
 
-## Installation
-Just paste `aGates.inc` in "pawno\includes" and add ***#include <agates>***
-
+## Installation and Use
 Refer to [Wiki](https://github.com/AceAbhishekOfficial/aGates-samp/wiki)
