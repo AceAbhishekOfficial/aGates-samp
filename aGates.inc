@@ -85,7 +85,7 @@ enum ginfo
 }
 new GateInfo[MAX_GATES][ginfo];
 
-new AreaGate[MAX_GATES];
+new AreaGate[500];
 
 /////////////////////////////////////////////// Stock /////////////////////////////////////////////////////
 stock GetGateID(objectid)
