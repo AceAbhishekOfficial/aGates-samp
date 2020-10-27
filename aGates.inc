@@ -109,7 +109,6 @@ public CreateGate(objid,worldid,interiorid,playerid,bool:autoOpen, Float:speed)
 	    {
 	        new temp = CreateDynamicObject(objid,-1000.0,-1000.0,-1000.0, 0.0,0.0,0.0, worldid,interiorid,playerid,300.0,300.0);
 			GateInfo[a][gObjid]=temp;
-			printf("%i",temp);
 			GateInfo[a][gAuto]=autoOpen;
 			GateInfo[a][used]=true;
 			GateInfo[a][gSpeed]=speed;
