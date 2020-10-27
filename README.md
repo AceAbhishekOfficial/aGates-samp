@@ -1,4 +1,4 @@
-# ACE GATES
+# aGates
 
 Automatic Gates for SAMP/open.mp , more efficeint than anyother automatic gates.
 
