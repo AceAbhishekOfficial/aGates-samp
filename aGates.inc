@@ -248,7 +248,7 @@ public OnDynamicObjectMoved(objectid)
 #endif
 #define OnDynamicObjectMoved aGates_OnDynamicObjectMoved
 #if defined aGates_OnDynamicObjectMoved
-    forward aGates_OnDynamicObjectMoved(objectid;
+    forward aGates_OnDynamicObjectMoved(objectid);
 #endif
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
