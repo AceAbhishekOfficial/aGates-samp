@@ -219,6 +219,8 @@ public OnPlayerEnterDynamicArea(playerid, areaid)
 public OnDynamicObjectMoved(objectid)
 {
 	new gateid = GetGateID(objectid);
+	if(gateid==-1)
+	return 1;
 	if(GateInfo[gateid][gStatus]==GATE_STATUS_OPENING)
 	{
 		GateInfo[gateid][gStatus]=GATE_STATUS_OPEN;
